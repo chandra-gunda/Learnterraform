@@ -14,4 +14,7 @@ tags = {
 
 #conditions can be used to set default values for variables or to control the flow of resource creation based on certain conditions. 
 #In this example, we are using a condition to check if the variable "Instance_type" is empty. If it is empty, we set the instance type to "t3.small". Otherwise, we use the value provided in the variable.
-#
+#conditions can be applied using :
+#Strings ==,!=
+#Numbers ==,!=,>,<,>=,<=
+#Booleans ==,!= or var.boolean ? true_val : false_val
